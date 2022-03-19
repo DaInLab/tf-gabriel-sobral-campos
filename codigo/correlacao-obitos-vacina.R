@@ -1,4 +1,3 @@
-
 if (!("readxl") %in% installed.packages()) install.packages("readxl")
 library(readxl)
 covid_19_bauru_mortes <- read_excel("dados/covid_19_bauru_mortes.xlsx", col_types=c("text"))

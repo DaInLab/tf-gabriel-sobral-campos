@@ -8,3 +8,5 @@ barplot(sort(comorbidades, decreasing=TRUE),
         las = 1)
 mtext(side = 1, text = "Mortes", line = 2)
 box(bty = "L")
+
+par(mfrow = c(1,1))
